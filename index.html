@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <img src="https://pngimg.com/uploads/mortal_kombat/mortal_kombat_PNG67.png" alt="MK Logo" class="logo-image">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home-page" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="#profile-page" class="nav-link" data-page="profile">Our Profile</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#message-us" class="nav-link">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home-page" class="page-section active">
+            <section class="welcome-section">
+                <h1>Hi <span id="userName">Name</span>, Welcome To HHHBK</h1>
+                <p>We encourage the uncourage</p>
+            </section>
+            
+            <section class="placeholder-section">
+                <span>1280 x 676</span>
+            </section>
+
+            <section class="headquarter-section">
+                <h2>Our Headquarter</h2>
+                <div class="locations">
+                    <div class="location-item">
+                        <div class="circle"></div>
+                        <p>Jakarta</p>
+                    </div>
+                    <div class="location-item">
+                        <div class="circle"></div>
+                        <p>Bandung</p>
+                    </div>
+                    <div class="location-item">
+                        <div class="circle"></div>
+                        <p>Lagos</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="profile-page" class="page-section">
+            <section class="profile-header">
+                <div class="photo-banner">
+                    <h3>We Are Innovators</h3>
+                </div>
+            </section>
+
+            <section class="about-company">
+                <h2>About the Company</h2>
+                <p>We are a leading tech company committed to creating innovative solutions for a better future. Our team consists of passionate experts dedicated to solving complex problems with simple, elegant technology. We believe in continuous learning and adapting to the ever-changing digital landscape to stay ahead.</p>
+            </section>
+            
+            <section class="vision-mission">
+                <div class="vision">
+                    <h2>Our Vision</h2>
+                    <p>To be a global leader in technological innovation, empowering people and businesses with tools that simplify life and accelerate growth. We envision a world where technology is a force for good, accessible to everyone.</p>
+                </div>
+                <div class="mission">
+                    <h2>Our Mission</h2>
+                    <ul>
+                        <li><p>Innovate: To continuously develop cutting-edge products and services that meet the evolving needs of our customers.</p></li>
+                        <li><p>Collaborate: To foster a culture of teamwork and open communication, building strong partnerships with our clients and communities.</p></li>
+                        <li><p>Empower: To provide our employees with the resources and freedom to grow, innovate, and achieve their full potential.</p></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div id="message-us" class="page-section">
+            <section class="message-us-section">
+                <h2>Message Us</h2>
+                <div class="form-container">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group date-gender-group">
+                            <div class="date-group">
+                                <label for="tanggal">Birth Date</label>
+                                <input type="date" id="tanggal" name="tanggal">
+                            </div>
+                            <div class="gender-group">
+                                <label>Gender</label>
+                                <div class="radio-buttons">
+                                    <input type="radio" id="pria" name="gender" value="pria">
+                                    <label for="pria">Male</label>
+                                    <input type="radio" id="wanita" name="gender" value="wanita">
+                                    <label for="wanita">Female</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inquiry">Message</label>
+                            <textarea id="inquiry" name="inquiry" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div class="form-output-box">
+                        </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>Created By HHHBK</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

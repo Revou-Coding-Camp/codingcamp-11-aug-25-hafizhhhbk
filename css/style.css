@@ -1,0 +1,164 @@
+/* --- Header and Navigation --- */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.logo-image {
+    width: 40px; /* This sets the width */
+    height: auto; /* This keeps the image's proportions */
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #555;
+}
+
+/* --- Section Styles --- */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.welcome-section {
+    padding-top: 50px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.placeholder-section {
+    min-height: 200px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #ccc;
+}
+
+.headquarter-section {
+    text-align: left;
+}
+
+.headquarter-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.location-item {
+    text-align: center;
+}
+
+.location-item .circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* --- Message Us & Form Styles --- */
+.message-us-section {
+    border-top: 1px solid #ccc;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#contactForm {
+    flex: 1;
+    min-width: 300px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    border-radius: 4px;
+}
+
+.date-gender-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.date-group, .gender-group {
+    flex: 1;
+}
+
+.gender-group .radio-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.form-output-box {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #000;
+    padding: 20px;
+    line-height: 1.6;
+}
+
